@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProdutosApp.Dtos;
+using ProdutosApp.Entities;
+using ProdutosApp.Repositories;
+using System.Dynamic;
 
 namespace ProdutosApp.Controllers
 {
@@ -11,9 +15,22 @@ namespace ProdutosApp.Controllers
         /// Serviço para cadastro de produto na API.
         /// </summary>
         [HttpPost]
-        public IActionResult Post()
+        public IActionResult Post([FromBody] ProdutoRequestDto request)
         {
-            return Ok();
+            var produto = new Produto(); //instanciando produto
+
+            produto.Id = Guid.NewGuid(); //gerando o id do produto
+            produto.Nome = request.Nome; //capturando o nome do produto enviado pelo frontend
+            produto.Preco = request.Preco.Value; //capturando o preço do produto enviado pelo frontend
+            produto.Quantidade = request.Quantidade.Value; //capturando a quantidade do produto enviado pelo frontend
+            produto.CategoriaId = request.CategoriaId.Value; //capturando o id da categoria enviado pelo frontend
+
+            //gravar no banco de dados
+            var produtoRepository = new ProdutoRepository();
+            produtoRepository.Inserir(produto);
+
+            //retornar mensagem de sucesso
+            return Ok(new { Mensagem = "Produto cadastrado com sucesso." });
         }
 
         /// <summary>
@@ -38,9 +55,16 @@ namespace ProdutosApp.Controllers
         /// Serviço para consulta de produtos na API.
         /// </summary>
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get([FromQuery]string nome)
         {
-            return Ok();
+
+            var produtoRepository = new ProdutoRepository();
+
+            var produtos = produtoRepository.ConsultarPorNome(nome);
+            return Ok(produtos);
         }
     }
 }
+
+
+

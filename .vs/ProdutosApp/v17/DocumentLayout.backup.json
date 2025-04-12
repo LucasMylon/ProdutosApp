@@ -1,16 +1,183 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\CSharp - Sabado\\ProdutosApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\dtos\\categoriaqtdprodutosresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\dtos\\categoriaqtdprodutosresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\dtos\\categoriamediaprecoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\dtos\\categoriamediaprecoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|c:\\users\\arcanjo\\source\\repos\\produtosapp\\produtosapp\\dtos\\produtorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91009CC-CE0C-4F8D-A30A-29EC19ED0B96}|ProdutosApp\\ProdutosApp.csproj|solutionrelative:produtosapp\\dtos\\produtorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\23yrly0s..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\ojot2yft..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\u0eruakj..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": []
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "ProdutosApp\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:54:05.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "ProdutosApp\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T18:37:26.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "ProdutosApp\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAlwDwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:17:54.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaQtdProdutosResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Dtos\\CategoriaQtdProdutosResponseDto.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Dtos\\CategoriaQtdProdutosResponseDto.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Dtos\\CategoriaQtdProdutosResponseDto.cs",
+              "RelativeToolTip": "ProdutosApp\\Dtos\\CategoriaQtdProdutosResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:06:57.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaMediaPrecoResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Dtos\\CategoriaMediaPrecoResponseDto.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Dtos\\CategoriaMediaPrecoResponseDto.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Dtos\\CategoriaMediaPrecoResponseDto.cs",
+              "RelativeToolTip": "ProdutosApp\\Dtos\\CategoriaMediaPrecoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T17:09:40.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "ProdutosApp\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T17:02:00.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Dtos\\ProdutoRequestDto.cs",
+              "RelativeDocumentMoniker": "ProdutosApp\\Dtos\\ProdutoRequestDto.cs",
+              "ToolTip": "C:\\Users\\Arcanjo\\source\\repos\\ProdutosApp\\ProdutosApp\\Dtos\\ProdutoRequestDto.cs",
+              "RelativeToolTip": "ProdutosApp\\Dtos\\ProdutoRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T17:05:42.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "23yrly0s..sql",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\23yrly0s..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\23yrly0s..sql",
+              "ToolTip": "C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\23yrly0s..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\23yrly0s..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-05T18:30:43.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ojot2yft..sql",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\ojot2yft..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\ojot2yft..sql",
+              "ToolTip": "C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\ojot2yft..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\ojot2yft..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-05T18:18:12.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "u0eruakj..sql",
+              "DocumentMoniker": "C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\u0eruakj..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\u0eruakj..sql",
+              "ToolTip": "C:\\Users\\Arcanjo\\AppData\\Local\\Temp\\u0eruakj..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\u0eruakj..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-05T17:25:45.57Z"
+            }
+          ]
         }
       ]
     }

@@ -1,4 +1,5 @@
-﻿using ProdutosApp.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using ProdutosApp.Contexts;
 using ProdutosApp.Entities;
 
 namespace ProdutosApp.Repositories
@@ -54,5 +55,18 @@ namespace ProdutosApp.Repositories
                             //ou retornar null (vazio) se nenhum produto for encontrado
             }
         }
+        public List<Produto> ConsultarPorNome(string nome)
+        {
+            using(var dataContext = new DataContext())
+            {
+                return dataContext 
+                    .Set<Produto>()
+                    .Include(p => p.Categoria)
+                    .Where(p => p.Nome.Contains(nome))
+                    .OrderBy(p => p.Nome)
+                    .ToList();
+            }
+        }
+
     }
 }

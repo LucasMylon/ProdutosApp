@@ -10,13 +10,39 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProdutosApp.Controllers.DashboardController",
+    "Method": "GetMediaPreco",
+    "RelativePath": "api/Dashboard/categoria-mediapreco",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProdutosApp.Controllers.DashboardController",
+    "Method": "GetQtdProdutos",
+    "RelativePath": "api/Dashboard/categoria-qtdprodutos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProdutosApp.Controllers.ProdutosController",
     "Method": "Post",
     "RelativePath": "api/Produtos",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProdutosApp.Dtos.ProdutoRequestDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -46,7 +72,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]

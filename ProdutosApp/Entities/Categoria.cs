@@ -1,4 +1,6 @@
-﻿namespace ProdutosApp.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace ProdutosApp.Entities
 {
     public class Categoria
     {
@@ -10,8 +12,9 @@
         #endregion
 
         #region Relacionamentos
-
+        [JsonIgnore]
         public List<Produto>? Produtos { get; set; }
+        
 
         #endregion
     }

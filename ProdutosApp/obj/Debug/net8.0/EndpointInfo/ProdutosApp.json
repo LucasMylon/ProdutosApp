@@ -17,11 +17,54 @@
         }
       }
     },
+    "/api/Dashboard/categoria-qtdprodutos": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dashboard/categoria-mediapreco": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Produtos": {
       "post": {
         "tags": [
           "Produtos"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProdutoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProdutoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProdutoRequestDto"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -52,6 +95,15 @@
         "tags": [
           "Produtos"
         ],
+        "parameters": [
+          {
+            "name": "nome",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -60,5 +112,41 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "ProdutoRequestDto": {
+        "required": [
+          "categoriaId",
+          "nome",
+          "preco",
+          "quantidade"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "maxLength": 100,
+            "minLength": 8,
+            "type": "string"
+          },
+          "preco": {
+            "maximum": 999999,
+            "minimum": 0,01,
+            "type": "number",
+            "format": "double"
+          },
+          "quantidade": {
+            "maximum": 999999,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoriaId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }
